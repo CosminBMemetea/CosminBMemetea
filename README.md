@@ -2,29 +2,29 @@
 <!-- Top of README -->
 
 
-# TALQUOR  
+# CosminBMemetea  
 
 
-![Rank](https://yoda-level-github-badge.vercel.app/api/user-rank?username=talquor&badge=1&xp=bar&streak=1&streakSource=hybrid&theme=jedi&logo=saber)
+![Rank](https://yoda-level-github-badge.vercel.app/api/user-rank?username=CosminBMemetea&badge=1&xp=bar&streak=1&streakSource=hybrid&theme=jedi&logo=saber)
 
 <p align="center">
   &nbsp;
   <img alt="Quantum"
-       src="https://yoda-level-github-badge.vercel.app/api/qrotator-mini?username=talquor&theme=sith&xpStyle=bar&frame=entanglement"/>
+       src="https://yoda-level-github-badge.vercel.app/api/qrotator-mini?username=CosminBMemetea&theme=sith&xpStyle=bar&frame=entanglement"/>
 </p>
 
 ------
 
-![Yoda Trials](https://yoda-level-github-badge.vercel.app/api/trials?username=talquor&detailed=1&cols=3&theme=sith)
+![Yoda Trials](https://yoda-level-github-badge.vercel.app/api/trials?username=CosminBMemetea&detailed=1&cols=3&theme=sith)
 
 
-![Quantum Mini](https://yoda-level-github-badge.vercel.app/api/qrotator-mini?username=talquor&theme=jedi&dur=4&streak=1&xpMode=commits&xpPer=10&levelSize=100&windowDays=30)
+![Quantum Mini](https://yoda-level-github-badge.vercel.app/api/qrotator-mini?username=CosminBMemetea&theme=jedi&dur=4&streak=1&xpMode=commits&xpPer=10&levelSize=100&windowDays=30)
 
 
 ## Tools for AI Learning - QuantUm Open Robotics
 
 
-![Yoda Trials](https://yoda-level-github-badge.vercel.app/api/trials?username=talquor&theme=jedi)
+![Yoda Trials](https://yoda-level-github-badge.vercel.app/api/trials?username=CosminBMemetea&theme=jedi)
 
 
 ![Quantum Rotator](https://yoda-level-github-badge.vercel.app/api/qrotator?size=lg&theme=sith&dur=8)
@@ -35,19 +35,19 @@
 > Clone → tweak → ship. Minimal by default, opinionated where it matters.
 
 
-**talquor vs drmxm**
+**CosminBMemetea vs drmxm**
   
 
   <p>
-    <a href="https://github.com/talquor">
-      <img height="120" src="https://github-readme-stats.vercel.app/api?username=talquor&theme=dracula&show_icons=true&include_all_commits=true&count_private=true&hide_border=true" alt="Cosmin’s GitHub stats" />
+    <a href="https://github.com/CosminBMemetea">
+      <img height="120" src="https://github-readme-stats.vercel.app/api?username=CosminBMemetea&theme=dracula&show_icons=true&include_all_commits=true&count_private=true&hide_border=true" alt="Cosmin’s GitHub stats" />
     </a>
-    <a href="https://github.com/talquor">
-      <img height="120" src="https://github-readme-stats.vercel.app/api/top-langs/?username=talquor&layout=compact&theme=dracula&hide_border=true" alt="Top languages" />
+    <a href="https://github.com/CosminBMemetea">
+      <img height="120" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CosminBMemetea&layout=compact&theme=dracula&hide_border=true" alt="Top languages" />
     </a>
   </p>
   <p>
-    <img height="120" src="https://github-profile-trophy.vercel.app/?username=talquor&theme=dracula&no-frame=true&margin-w=5&rank=-&row=2" alt="GitHub Trophies" />
+    <img height="120" src="https://github-profile-trophy.vercel.app/?username=CosminBMemetea&theme=dracula&no-frame=true&margin-w=5&rank=-&row=2" alt="GitHub Trophies" />
   </p>
 </div>
 
@@ -55,15 +55,15 @@
 
 ## 📦 Featured Kits
 - 🛰 **ROS 2 Vision Boilerplate** — camera→topics→Foxglove  
-  → [`ros2-x-container`](https://github.com/talquor/ros2-x-container)
+  → [`ros2-x-container`](https://github.com/CosminBMemetea/ros2-x-container)
 - 🤖 **Model Mesh** — FastAPI service with swappable ML adapters + DVC  
-  → [`model-mesh`](https://github.com/talquor/model-mesh)
+  → [`model-mesh`](https://github.com/CosminBMemetea/model-mesh)
 - 📹 **webcam2rtsp** — macOS webcam → RTSP (H.264) for CV stacks/NVRs  
-  → [`webcam2rtsp`](https://github.com/talquor/webcam2rtsp)
+  → [`webcam2rtsp`](https://github.com/CosminBMemetea/webcam2rtsp)
 - 📊 **Dashboards** — sprint analytics (burndowns, PNGs, API)  
-  → [`dashboards`](https://github.com/talquor/dashboards)
+  → [`dashboards`](https://github.com/CosminBMemetea/dashboards)
 - 🐉 **YOLOv3 Detector** — tiny baseline detection API  
-  → [`mmx-detector`](https://github.com/talquor/mmx-detector)
+  → [`mmx-detector`](https://github.com/CosminBMemetea/mmx-detector)
 
 ---
 
@@ -136,7 +136,7 @@
 
 <div align="center">
 
-[![Views](https://komarev.com/ghpvc/?username=talquor&color=brightgreen&style=flat-square)]()
+[![Views](https://komarev.com/ghpvc/?username=CosminBMemetea&color=brightgreen&style=flat-square)]()
 [![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/CosminBMemetea)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/cosmin-bogdan-memetea-6450a7bb/)
 
