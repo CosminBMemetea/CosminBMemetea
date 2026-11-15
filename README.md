@@ -39,120 +39,204 @@ The question I keep coming back to is simple:
 
 ## 🧪 What I'm building
 
+
+### 📊 [Project Control Tower](https://github.com/CosminBMemetea/project-control-tower)
+
+**Portfolio governance and reporting across a shared set of goal tracks**
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-SQLite-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-Installer-0078D6?style=flat-square&logo=windows&logoColor=white)
+![Offline](https://img.shields.io/badge/Runs-Fully_Offline-2E7D32?style=flat-square)
+![SignPath](https://img.shields.io/badge/Code_signing-SignPath-455A64?style=flat-square)
+
+Tracks multiple projects on environment setup, planning, meeting cadence, reporting, risk and delivery health:
+
+- Portfolio Overview — goal coverage, RAG status, open risks and a Project Health radar
+- Risk Register — impact, probability, mitigation and a high-severity rollup
+- Project Health — Scope / Schedule / Cost / Risk / Quality / Resources, scored 1–5
+- Meeting Map, dated reports from a customizable template, and executive Approvals
+
+The Windows app runs fully offline, installs **Only for me** with no administrator rights, and is [code-signed](https://github.com/CosminBMemetea/project-control-tower/blob/main/CODE_SIGNING.md) for free through SignPath.io (certificate by SignPath Foundation).
+
+[Latest release →](https://github.com/CosminBMemetea/project-control-tower/releases/latest)
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/CosminBMemetea/project-control-tower/main/docs/media/pct-demo.gif" width="85%" alt="Project Control Tower — walkthrough of Portfolio Overview, Projects, Approvals, Report Template and Settings">
+</div>
+
+---
+
+### 📡 [MultiSens](https://github.com/CosminBMemetea/multisens)
+
+**Open-source multi-sensor platform: ingest, sync, diagnose, evaluate**
+
+![ROS2](https://img.shields.io/badge/ROS_2-Humble-22314E?style=flat-square&logo=ros&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Release](https://img.shields.io/badge/release-v1.1.0-blue?style=flat-square)
+![Tests](https://img.shields.io/badge/backend_tests-1084_passing-brightgreen?style=flat-square)
+
+Vendor-neutral platform for anything that speaks RTSP — from ingestion and cross-sensor sync through live inference overlays.
+
+One rule enforced end to end:
+
+> **Every number shown is a real measurement or an explicit `N/A` — never a made-up one.**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/CosminBMemetea/multisens/main/docs/images/multimodel_overlay_dashboard.png" width="85%" alt="MultiSens live dashboard with multi-model detection overlay">
+</div>
+
+---
+
+### 🛰️ [ros2-x-container](https://github.com/CosminBMemetea/ros2-x-container)
+
+**Dockerized ROS 2 vision stack for edge AI**
+
+![ROS2](https://img.shields.io/badge/ROS_2-Humble-22314E?style=flat-square&logo=ros&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![NVIDIA](https://img.shields.io/badge/NVIDIA-Jetson-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![YOLO](https://img.shields.io/badge/YOLO-v3%2FTiny-111111?style=flat-square)
+![Foxglove](https://img.shields.io/badge/Foxglove-Studio-7C4DFF?style=flat-square)
+
+MJPEG in, ROS 2 topics out: publishes `/image_raw` and `/annotated_image`, exposes a Foxglove WebSocket, and can run YOLOv3/Tiny detection from environment variables.
+
+Built as a reusable playground for perception pipelines, optimized for arm64 — Mac M2 or NVIDIA Jetson.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/c42fc63f-7b3a-463d-a1cb-5170c4da1a7e" width="85%" alt="ROS 2-X Container — camera, detection and Foxglove overview">
+</div>
+
+---
+
 ### 🧠 [keraforge](https://github.com/CosminBMemetea/keraforge)
 
-**RAG + bounded-agent playground**
+**Local RAG + bounded agent that abstains and cites**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Qdrant](https://img.shields.io/badge/Qdrant-Vector_DB-DC244C?style=flat-square)
 ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-RAG-4B32C3?style=flat-square)
 ![Ollama](https://img.shields.io/badge/Ollama-Local_LLM-000000?style=flat-square)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-My experiment in building AI workflows that are observable instead of magical.
+A local, observable RAG stack: Qdrant retrieval, LlamaIndex, a small Ollama model and a FastAPI query API.
 
-Current work includes:
+If retrieval is weak, it abstains and asks a clarifying question instead of inventing an answer. Answers carry citations, and runs are traced.
 
-- semantic retrieval
-- RAG
-- retrieval quality checks
-- abstention when context is weak
-- citations / provenance
-- workflow tracing
-- evaluation
-- bounded tool use
-- constrained agent execution
-
-The agent is intentionally limited.
-
-I am more interested in **controllable systems that fail visibly** than agents that appear autonomous until something goes wrong.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/CosminBMemetea/keraforge/main/demo-v0.1.0p0.png" width="85%" alt="keraforge local RAG demo">
+</div>
 
 ---
 
-### 🛰️ [ros2-x-container](https://github.com/CosminBMemetea/ros2-x-container)
+### 🚗 [canml](https://github.com/CosminBMemetea/canml)
 
-**Dockerized ROS 2 vision environment**
+**CAN bus logs → pandas DataFrames**
 
-![ROS2](https://img.shields.io/badge/ROS_2-Humble-22314E?style=flat-square&logo=ros&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![NVIDIA](https://img.shields.io/badge/NVIDIA-Jetson-76B900?style=flat-square&logo=nvidia&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyPI](https://img.shields.io/pypi/v/canml.svg?style=flat-square)
+![pandas](https://img.shields.io/badge/pandas-DataFrames-150458?style=flat-square&logo=pandas&logoColor=white)
 
-Reusable playground for:
+Python toolkit that decodes CAN BLF logs with DBC definitions, streams large files in chunks or loads them in one call, and exports to CSV or Parquet — with signal-level filtering and DBC merging.
 
-- camera → ROS 2 topics
-- image processing
-- YOLO experiments
-- Foxglove visualization
-- Dockerized execution
-- NVIDIA Jetson trials
+```bash
+pip install canml
+```
 
-I use it to experiment with the plumbing around perception systems, not only the model itself.
-
----
-
-### 📡 [multirtsp](https://github.com/CosminBMemetea/multirtsp)
-
-**One capture → multiple synchronized RTSP streams**
-
-![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white)
-![RTSP](https://img.shields.io/badge/RTSP-Streaming-455A64?style=flat-square)
-![Bash](https://img.shields.io/badge/Bash-121011?style=flat-square&logo=gnubash&logoColor=white)
-
-A small utility for developing multi-stream perception pipelines when the full sensor setup is not available.
-
-Current setup produces:
-
-- RGB
-- pseudo-depth
-- pseudo-thermal
-
-from one source using FFmpeg and MediaMTX.
+Also on [PyPI](https://pypi.org/project/canml/).
 
 ---
 
-### 🤖 [model-mesh](https://github.com/CosminBMemetea/model-mesh)
+## 🌐 Live demos
 
-**Small ML serving experiment**
+<table>
+<tr>
+<td width="50%" valign="top">
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![DVC](https://img.shields.io/badge/DVC-945DD6?style=flat-square&logo=dvc&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-S3-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+### 🌍 [story](https://github.com/CosminBMemetea/story)
 
-Experimenting with:
+**Geotagged photos → 3D globe and a video recap**
 
-- model adapters
-- inference APIs
-- model/data separation
-- DVC
-- artifact storage
-- Dockerized deployment
+![Next.js](https://img.shields.io/badge/Next.js-15-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![three.js](https://img.shields.io/badge/three.js-Globe-049EF4?style=flat-square)
+![Remotion](https://img.shields.io/badge/Remotion-Video-000000?style=flat-square)
+[![Live demo](https://img.shields.io/badge/▶_Live_demo-2E7D32?style=flat-square)](https://cosminbmemetea.github.io/story/)
+
+Drop travel photos in the browser; GPS is read on-device and mapped onto an interactive globe, with a short Remotion recap. Photos never leave your device.
+
+</td>
+<td width="50%" valign="top">
+
+### 🚛 [igo](https://github.com/CosminBMemetea/igo)
+
+**Profit per trip and fuel savings for trucks and farm machinery**
+
+![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![i18n](https://img.shields.io/badge/i18n-RO_%2F_EN_%2F_PL-546E7A?style=flat-square)
+[![Live demo](https://img.shields.io/badge/▶_Live_demo-2E7D32?style=flat-square)](https://igo-kappa.vercel.app)
+
+The two numbers up front: fuel saved versus baseline, and profit per trip (revenue − diesel − tolls − driver − other). Public demo uses fictional, labelled data.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🎮 Just for fun
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🐤 [zdappy-bird](https://github.com/CosminBMemetea/zdappy-bird)
+
+**Flappy Bird in the browser, with an ERC-721 bird contract**
+
+![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=flat-square&logo=svelte&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-ERC--721-363636?style=flat-square&logo=solidity&logoColor=white)
+[![Live demo](https://img.shields.io/badge/▶_Play-00C853?style=flat-square)](https://cosminbmemetea.github.io/zdappy-bird/)
+
+Click, tap or press Space to flap. No wallet is required to play; connecting one is optional and testnet-only. The ERC-721 contract lives in the repo and is not deployed.
+
+</td>
+<td width="50%" valign="top">
+
+### 🛡️ [yoda-level-github-badge](https://github.com/CosminBMemetea/yoda-level-github-badge)
+
+**Star Wars–themed rank badges for a GitHub profile README**
+
+![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![SVG](https://img.shields.io/badge/SVG-Badges-FFB300?style=flat-square)
+[![Live demo](https://img.shields.io/badge/▶_Badge_Studio-6A1B9A?style=flat-square)](https://yoda-level-github-badge.vercel.app/ui)
+
+Tiers from Force Beginner to Master Yoda, XP bars, streaks, achievement trials and head-to-head duels — all as plain SVG.
+
+</td>
+</tr>
+</table>
 
 ---
 
-### 📹 [webcam2rtsp](https://github.com/CosminBMemetea/webcam2rtsp)
+## 🏢 Client projects
 
-**Webcam → H.264 RTSP**
-
-![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white)
-![H264](https://img.shields.io/badge/H.264-Streaming-455A64?style=flat-square)
-
-A small utility because sometimes the useful thing is simply making two systems talk to each other.
+- 🚚 [Querra Fleet](https://fleet.querra.net)
+- 📄 [Querra Docs](https://qerradoc.vercel.app)
 
 ---
 
-### 📊 [dashboards](https://github.com/CosminBMemetea/dashboards)
+<details>
+<summary><b>🔧 Smaller tools and experiments</b></summary>
+<br>
 
-**Engineering delivery analytics**
+- 📹 [multirtsp](https://github.com/CosminBMemetea/multirtsp) — one camera → synchronized RGB, pseudo-depth and pseudo-thermal RTSP streams (FFmpeg + MediaMTX)
+- 🗺️ [scrum-guide-mindmap](https://github.com/CosminBMemetea/scrum-guide-mindmap) — a mind map for every topic in the Scrum Guide 2020
 
-![Analytics](https://img.shields.io/badge/Engineering-Analytics-1565C0?style=flat-square)
-![Agile](https://img.shields.io/badge/Agile-Delivery-00897B?style=flat-square)
-
-Experiments around sprint data, burndowns and lightweight reporting.
-
----
+</details>
 
 ## 🤝 How I use AI to build
 
