@@ -5,8 +5,6 @@
 ## Cosmin B. Memetea
 ### Technical Project Lead · Software Engineer · Building with AI
 
-![Rank](https://yoda-level-github-badge.vercel.app/api/user-rank?username=CosminBMemetea&badge=1&xp=bar&streak=1&streakSource=hybrid&theme=jedi&logo=saber)
-
 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Cosmin--Bogdan_Memetea-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cosmin-bogdan-memetea-6450a7bb/)
