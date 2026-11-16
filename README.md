@@ -149,73 +149,62 @@ Also on [PyPI](https://pypi.org/project/canml/).
 
 ---
 
-## 🌐 Live demos
+## 🌐 Live demos & just for fun
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-### 🌍 [story](https://github.com/CosminBMemetea/story)
-
-**Geotagged photos → 3D globe and a video recap**
-
-![Next.js](https://img.shields.io/badge/Next.js-15-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![three.js](https://img.shields.io/badge/three.js-Globe-049EF4?style=flat-square)
-![Remotion](https://img.shields.io/badge/Remotion-Video-000000?style=flat-square)
-[![Live demo](https://img.shields.io/badge/▶_Live_demo-2E7D32?style=flat-square)](https://cosminbmemetea.github.io/story/)
-
-Drop travel photos in the browser; GPS is read on-device and mapped onto an interactive globe, with a short Remotion recap. Photos never leave your device.
-
+<td width="33%" valign="top" align="center">
+<h3>🌍 story</h3>
+<b>Geotagged photos → 3D globe and a video recap</b>
+<br><br>
+<img src="https://img.shields.io/badge/Next.js-15-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
+<img src="https://img.shields.io/badge/three.js-Globe-049EF4?style=flat-square" alt="three.js">
+<img src="https://img.shields.io/badge/Remotion-Video-000000?style=flat-square" alt="Remotion">
+<br><br>
+<a href="https://cosminbmemetea.github.io/story/"><img src="https://img.shields.io/badge/%E2%96%B6%20Live%20demo-2EA44F?style=flat-square" alt="Live demo"></a>
+<a href="https://github.com/CosminBMemetea/story"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+<details>
+<summary>👀 Preview</summary>
+<br>
+<a href="https://cosminbmemetea.github.io/story/"><img src="assets/story.gif" width="100%" alt="story: 3D globe with a sample trip lit up"></a>
+<br>
+<sub>Drop travel photos in the browser; GPS is read on-device and mapped onto an interactive globe, with a short Remotion recap. Photos never leave your device.</sub>
+</details>
 </td>
-<td width="50%" valign="top">
-
-### 🚛 [igo](https://github.com/CosminBMemetea/igo)
-
-**Profit per trip and fuel savings for trucks and farm machinery**
-
-![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![i18n](https://img.shields.io/badge/i18n-RO_%2F_EN_%2F_PL-546E7A?style=flat-square)
-[![Live demo](https://img.shields.io/badge/▶_Live_demo-2E7D32?style=flat-square)](https://igo-kappa.vercel.app)
-
-The two numbers up front: fuel saved versus baseline, and profit per trip (revenue − diesel − tolls − driver − other). Public demo uses fictional, labelled data.
-
+<td width="33%" valign="top" align="center">
+<h3>🐤 zdappy-bird</h3>
+<b>Flappy Bird in the browser, with an ERC-721 bird contract</b>
+<br><br>
+<img src="https://img.shields.io/badge/Svelte-FF3E00?style=flat-square&logo=svelte&logoColor=white" alt="Svelte">
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+<img src="https://img.shields.io/badge/Solidity-ERC--721-363636?style=flat-square&logo=solidity&logoColor=white" alt="Solidity">
+<br><br>
+<a href="https://cosminbmemetea.github.io/zdappy-bird/"><img src="https://img.shields.io/badge/%E2%96%B6%20Play-2EA44F?style=flat-square" alt="Play"></a>
+<a href="https://github.com/CosminBMemetea/zdappy-bird"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+<details>
+<summary>👀 Preview</summary>
+<br>
+<a href="https://cosminbmemetea.github.io/zdappy-bird/"><img src="assets/zdappy-bird.gif" width="100%" alt="Zdappy Bird gameplay"></a>
+<br>
+<sub>Click, tap or press Space to flap. No wallet is required to play; connecting one is optional and testnet-only. The ERC-721 contract lives in the repo and is not deployed.</sub>
+</details>
 </td>
-</tr>
-</table>
-
----
-
-## 🎮 Just for fun
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🐤 [zdappy-bird](https://github.com/CosminBMemetea/zdappy-bird)
-
-**Flappy Bird in the browser, with an ERC-721 bird contract**
-
-![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=flat-square&logo=svelte&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-ERC--721-363636?style=flat-square&logo=solidity&logoColor=white)
-[![Live demo](https://img.shields.io/badge/▶_Play-00C853?style=flat-square)](https://cosminbmemetea.github.io/zdappy-bird/)
-
-Click, tap or press Space to flap. No wallet is required to play; connecting one is optional and testnet-only. The ERC-721 contract lives in the repo and is not deployed.
-
-</td>
-<td width="50%" valign="top">
-
-### 🛡️ [yoda-level-github-badge](https://github.com/CosminBMemetea/yoda-level-github-badge)
-
-**Star Wars–themed rank badges for a GitHub profile README**
-
-![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![SVG](https://img.shields.io/badge/SVG-Badges-FFB300?style=flat-square)
-[![Live demo](https://img.shields.io/badge/▶_Badge_Studio-6A1B9A?style=flat-square)](https://yoda-level-github-badge.vercel.app/ui)
-
-Tiers from Force Beginner to Master Yoda, XP bars, streaks, achievement trials and head-to-head duels — all as plain SVG.
-
+<td width="33%" valign="top" align="center">
+<h3>🛡️ yoda-level-github-badge</h3>
+<b>Star Wars–themed rank badges for a GitHub profile README</b>
+<br><br>
+<img src="https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
+<img src="https://img.shields.io/badge/SVG-Badges-FFB300?style=flat-square" alt="SVG">
+<br><br>
+<a href="https://yoda-level-github-badge.vercel.app/ui"><img src="https://img.shields.io/badge/%E2%96%B6%20Badge%20Studio-2EA44F?style=flat-square" alt="Badge Studio"></a>
+<a href="https://github.com/CosminBMemetea/yoda-level-github-badge"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+<details>
+<summary>👀 Preview</summary>
+<br>
+<a href="https://yoda-level-github-badge.vercel.app/ui"><img src="assets/yoda-badge.gif" width="100%" alt="Yoda Badge Studio switching Jedi and Sith themes"></a>
+<br>
+<sub>Tiers from Force Beginner to Master Yoda, XP bars, streaks, achievement trials and head-to-head duels — all as plain SVG.</sub>
+</details>
 </td>
 </tr>
 </table>
@@ -224,10 +213,47 @@ Tiers from Force Beginner to Master Yoda, XP bars, streaks, achievement trials a
 
 ## 🏢 Client projects
 
-- 🚚 [Querra Fleet](https://fleet.querra.net)
-- 📄 [Querra Docs](https://qerradoc.vercel.app)
+<table>
+<tr>
+<td width="50%" valign="top" align="center">
+<h3>🚚 Querra Fleet</h3>
+<b>Trip profit, fuel estimates and refuelling anomalies — with visible data sources</b>
+<br><br>
+<img src="https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
+<img src="https://img.shields.io/badge/i18n-RO_%2F_EN_%2F_PL-546E7A?style=flat-square" alt="i18n">
+<img src="https://img.shields.io/badge/Hosted-EU_(Frankfurt)-003399?style=flat-square" alt="EU hosted">
+<br><br>
+<a href="https://fleet.querra.net"><img src="https://img.shields.io/badge/%E2%96%B6%20Open%20app-2F6FED?style=flat-square" alt="Open app"></a>
+<details>
+<summary>👀 Preview</summary>
+<br>
+<a href="https://fleet.querra.net"><img src="assets/querra-fleet.gif" width="100%" alt="Querra Fleet landing page in English, Romanian and Polish"></a>
+<br>
+<sub>For fleet owners and drivers: owners sign in with email, drivers with phone + PIN. Try the demo without an account.</sub>
+</details>
+</td>
+<td width="50%" valign="top" align="center">
+<h3>📄 Querra Docs</h3>
+<b>Service sheet on your phone — calm, fast, offline</b>
+<br><br>
+<img src="https://img.shields.io/badge/Next.js-PWA-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js PWA">
+<img src="https://img.shields.io/badge/Offline-First-5A4FCF?style=flat-square" alt="Offline first">
+<img src="https://img.shields.io/badge/PDF-Export-B30B00?style=flat-square" alt="PDF export">
+<br><br>
+<a href="https://qerradoc.vercel.app"><img src="https://img.shields.io/badge/%E2%96%B6%20Open%20app-2F6FED?style=flat-square" alt="Open app"></a>
+<details>
+<summary>👀 Preview</summary>
+<br>
+<a href="https://qerradoc.vercel.app"><img src="assets/querra-docs.gif" width="100%" alt="Querra Docs sign-in page in three languages, light and dark"></a>
+<br>
+<sub>Digital service sheets for professional cleaning equipment technicians: inspection, repair, maintenance and commissioning, saved as PDF.</sub>
+</details>
+</td>
+</tr>
+</table>
 
 ---
+
 
 <details>
 <summary><b>🔧 Smaller tools and experiments</b></summary>
